@@ -1,8 +1,5 @@
 
 
-from typing_extensions import Self
-
-
 class Account :
     id          = int 
     name        = str
@@ -10,6 +7,7 @@ class Account :
     mail        = str
     password    = str 
     
+    #metodo constructor Python 
     def __init__(self, name, document):
         self.name       = name
         self.document   = document
